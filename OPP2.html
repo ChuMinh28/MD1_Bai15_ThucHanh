@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="flashLamp.js"></script>
+    <script src="battery.js"></script>
+</head>
+<body>
+<script>
+    let battery = new Battery(10)
+    document.write(battery.getEnergy()+'<br>')
+
+
+    let flashLamp = new FlashLamp(100,60,32,45,56,'Made in china')
+    document.write(flashLamp.getBatteryInfo)
+
+
+    // document.write('Battery info: '+flashLamp.getBatteryInfo()+'<br>')
+    // flashLamp.light()
+    //
+    // document.write('Turn on<br>')
+    // flashLamp.turnOn()
+    // flashLamp.light()
+    // document.write('Battery info: '+flashLamp.getBatteryInfo()+'<br>')
+    //
+    // document.write('Turn off<br>')
+    // flashLamp.turnOff()
+    // flashLamp.light()
+
+</script>
+</body>
+</html>
